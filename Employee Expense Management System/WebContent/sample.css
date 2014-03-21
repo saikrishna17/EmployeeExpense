@@ -1,0 +1,68 @@
+#subOurClientContainer 
+{
+width: 882px;
+margin: 280px;
+overflow: hidden;
+background: transparent url(/ep/images/talk-bubble-top.gif) repeat-x 0 80px;
+}
+
+
+.testimonialContainer {
+float: left;
+width: 294px;
+overflow: hidden;
+background-color:;
+}
+
+
+.testimonialContainer p {
+display: block;
+width: 241px;
+margin: 0;
+padding: 40px 20px 20px 20px;
+font-size: 14px;
+line-height: 21px;
+font-style: italic;
+color: #236bcb;
+}
+
+
+
+body {
+font-family: "ff-dagny-web-pro-1","ff-dagny-web-pro-2",sans-serif;
+color: #1f1f1f;
+}
+
+
+
+
+.testimonialContainer h4 {
+	width: 294px;
+	margin: 0 0 5px 0;
+	padding: 0;
+	font-size: 19px;
+	color: #00000;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	}
+	
+.testimonialContainer h5 {
+	width: 294px;
+	margin: 0 0 10px 0;
+	padding: 0;
+	font-size: 12px;
+	color: Gray;
+	}
+	
+.testimonialContainer p {
+	display: block;
+	width: 241px;
+	margin: 0;
+	padding: 40px 20px 20px 20px;
+	font-size: 14px;
+	line-height: 21px;
+	font-style: italic;
+	color: #236bcb;
+	}
+
+	
+	

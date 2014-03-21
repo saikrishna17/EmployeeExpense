@@ -1,0 +1,80 @@
+#companyNewsContainer {
+	        width: 100%;
+	        margin: 0;
+	        padding: 0;
+	        }
+
+        #companyNewsSubContainer {
+	        width: 882px;
+	        margin: 0 auto;
+	        padding: 27px 0 0 0;
+	        }
+
+        #companyNewsSubContainer h3 {
+	        display: block;
+	        height: 35px;
+	        width: 882px;
+	        margin: 0 0 5px 0;
+	        padding: 0;
+	        text-indent: -9999px;
+	        background: transparent url(/ep/images/expensepoint-news-title.gif) no-repeat top left;
+	        }	
+	           
+	    #viewAllNewsItems 
+	    {
+	        float:right;
+	        margin-bottom:15px
+	    }
+        .companyNewsRow {
+	        width: 882px;
+	        overflow: hidden;
+	        padding-bottom: 30px;
+	        
+	        }
+
+        .companyNewsColumn {
+            float: left;
+	        width: 294px;
+	        overflow: hidden;
+	        }
+
+        .companyNewsColumn h5 {
+	        display: block;
+	        font-size: 15px;
+	        line-height: 20px;
+	        color: black;
+	        margin: 0;
+	        padding: 0;
+	        }
+
+        .companyNewsColumn h4 {
+	        width: 294px;
+	        display: block;
+	        margin: 0 0 5px 0;
+	        padding: 0;
+	        font-size: 19px!important;
+	        color: #185cc2;
+	        line-height: 20px;
+
+	        }
+	
+        .companyNewsColumn p {
+	        display: block;
+	        width: 241px;
+	        margin: 0;
+	        padding: 0;
+	        color: #1f1f1f;
+	        font-size: 12px;
+	        line-height: 21px; 
+	        }
+	
+        .companyNewsBorder {
+	        background: transparent url(/ep/images/underline.gif) no-repeat bottom;	
+	        margin-bottom: 30px;
+	        }
+	
+        #companyNewsSubContainer a {	
+	        color: #185cc2;
+	        font-size: 14px;
+	        text-decoration: none;
+        }

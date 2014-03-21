@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Employee Expense Management</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="formstyle.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript">
+   function validateForm(name1,name2,name3,name4,name5,name6,name7)
+   {
+   var a=document.forms["myForm"][name1].value;
+  var b=document.forms["myForm"][name2].value;
+   var c=document.forms["myForm"][name3].value;
+  var d=document.forms["myForm"][name4].value;
+   var e=document.forms["myForm"][name5].value;
+  var f=document.forms["myForm"][name6].value;
+   var g=document.forms["myForm"][name7].value;
+  
+   if (a==null || a=="")
+  {
+  alert("PLEASE FILL THE REQUIRED FEILD");
+				 document.getElementById("tname1").focus();
+				
+            
+  return false;
+  }  
+   
+   
+  else  if(b==null || b=="")
+  {
+	  alert("PLEASE FILL THE REQUIRED FEILD");
+		 document.getElementById("tname2").focus();
+		
+            return false;
+  }  
+  else if (c==null || c=="")
+  {
+	  alert("PLEASE FILL THE REQUIRED FEILD");
+   document.getElementById("tname3").focus();
+            return false;
+  }  
+  else  if(d==null || d=="")
+  {
+	  alert("PLEASE FILL THE REQUIRED FEILD");
+				 document.getElementById("tname4").focus();
+    
+            return false;
+  } 
+  else if (e==null || e=="")
+  {
+	  alert("PLEASE FILL THE REQUIRED FEILD");
+				 document.getElementById("tname5").focus();
+            
+            return false;
+  }  
+  else  if(f==null || f=="")
+  {
+	  alert("PLEASE FILL THE REQUIRED FEILD");
+				 document.getElementById("tname6").focus();
+            
+            return false;
+  }
+  else if (g==null || g=="")
+  {
+	  alert("PLEASE FILL THE REQUIRED FEILD");
+				 document.getElementById("tname7").focus();
+            
+            return false;
+  }  
+  return true;
+   }
+   </script>
+</head>
+<body>
+	<div id="logo">
+		<h1>iClaim</h1>
+	</div>
+	<div id="header">
+		<div id="menu">
+			<ul>
+				<li><a href="index.jsp" class="first">Home</a></li>
+				
+				<li class="current_page_item"><a href="#">Services</a></li>
+				<li><a href="#">Clients</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="compreg.html">Register</a></li>
+               <li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+	<FORM name="myForm" onsubmit="return validateForm('date','cname','add','city','state','zip','phno')"ACTION="reg.jsp" METHOD="post">
+  <div id="formation">
+	<legend>Registration</legend>
+	<ul>
+			<li>Date *</li><li class="inpt"><INPUT  id="tname1" TYPE="text" NAME="date" pattern="\d{1,2}/\d{1,2}/\d{4}" required></li>
+			 <li>Company Name *:</li><li class="inpt"><INPUT id="tname2"TYPE="text" NAME="cname" required></li>
+			 <li>Address *:</li><li class="inpt"><TEXTAREA  id="tname3" NAME="add" ROWS="" COLS="" required class="tbox" required></TEXTAREA></li>
+			 <li>City *:</li><li class="inpt"><INPUT id="tname4" TYPE="text" NAME="city" required></li>
+			 <li>State*:</li><li class="inpt"><INPUT id="tname5" TYPE="text" NAME="city" required></li>
+			 <li>Zip Code *:</li><li class="inpt"><INPUT id="tname6" TYPE="number" NAME="zip" required></li>
+			 <li>Phone No *:</li><li class="inpt"><INPUT  id="tname7" TYPE="number" NAME="phno" required></li>
+			 <li>Fax::</li><li class="inpt"><INPUT  TYPE="number" NAME="fax"></li> 
+			 <li>Email:</li><li class="inpt"><INPUT   TYPE="email" NAME="email"></li>
+			 <li class="lbl">Website</li><li class="inpt"><INPUT TYPE="text" NAME="web" required></li>
+              <li><INPUT type="submit" value="submit" input style="width:90px;height:50px;font-size:12pt;"></li>
+  </ul>
+  </div>
+  </FORM>
+  <div id="footer">
+		<p>Copyright (c) 2008 Sitename.com. All rights reserved. Design by <a href="MSSS">Free CSS Templates</a>.</p>
+	</div>
+ </body>
+</html>
